@@ -1,5 +1,5 @@
 #' Which libraries does R search for packages?
-
+library(tidyverse)
 # try .libPaths(), .Library
 .libPaths()
 .Library
@@ -14,7 +14,7 @@ installed.packages()
 ## remember to use View() or similar to inspect
 View(installed.packages())
 ## how many packages?
-library(tidyverse)
+
 ipt <- installed.packages() %>% 
   as_tibble()
 nrow(ipt)
