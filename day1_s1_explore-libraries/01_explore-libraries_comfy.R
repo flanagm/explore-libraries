@@ -1,5 +1,6 @@
 #' Which libraries does R search for packages?
 library(tidyverse)
+library(devtools)
 # try .libPaths(), .Library
 .libPaths()
 .Library
